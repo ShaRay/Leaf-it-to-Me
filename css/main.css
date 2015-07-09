@@ -12,12 +12,31 @@ body {
 }
 
 body {
-	height: 50%;
+	height: 100%;
     background-image: url(img/hackberry_tree_20131230_1040936985.png);
     background-repeat: no-repeat;
     background-size: cover;
 
    } 
+
+   img {
+  width: 500px;
+  height: 500px;
+  display: block;
+  position: center;
+}
+
+img::after {
+  content: "";
+  background: url(img/hackberry_tree_20131230_1040936985.png);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
 
 
 a {
