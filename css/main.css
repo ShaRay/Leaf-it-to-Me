@@ -3,8 +3,21 @@ General
 **********************************/
 
 body {
-	font-family: 'Oxyden', 'Open-Sans', 'sans-serif';
+	font-family: 'Roboto', 'Open-Sans', 'sans-serif';
 }
+
+
+body {
+    background-color: #BCED91;
+}
+
+body {
+	height: 100%;
+    background-image: url(img/hackberry_tree_20131230_1040936985.png);
+    background-repeat: no-repeat center center;
+    background-size: cover;
+   } 
+
 
 a {
 	text-decoration: none;
@@ -29,6 +42,7 @@ header {
 #logo {
 	text-align: center;
 	margin: 0;
+	text-decoration: none;
 }
 
 h1 {
@@ -48,8 +62,32 @@ a {
 	color: #006600;
 }
 
+/********************************
+Navagation
+**********************************/
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+	text-decoration: none;
+
+}
+
+nav li {
+	display: inline-block;
+}
 
 
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
 
 
 
