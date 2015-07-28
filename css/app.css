@@ -119,7 +119,7 @@ h4 {
 
 .button {
 	-webkit-appearance: none;
-	background-color: #003300;
+	background-color: transparent;
 	border-width: 0;
 	text-align: center;
 	box-shadow: 0 0 0;
@@ -127,12 +127,11 @@ h4 {
 
 .button:hover {
 	color: rgba(255, 255, 255, 0.7);
-	background-color: #99FF99;
+	background-color: transparent;
 }
 
 /*Contact Form */
 
-.contact-form {
 	
 
 footer p, footer a {
