@@ -2619,7 +2619,7 @@ form .row textarea.columns {
 /* Label Styles */
 label {
   font-size: 0.875rem;
-  color: #4d4d4d;
+  color: #fff;
   cursor: pointer;
   display: block;
   font-weight: normal;
