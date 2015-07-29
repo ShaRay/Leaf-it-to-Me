@@ -130,14 +130,17 @@ h4 {
 	background-color: transparent;
 }
 
+button:hover, button:focus, .button:hover, .button:focus {
+    background-color: #574D39; }
+
 /*Contact Form */
 
 
 #contact-form {  
    background-color: #574D39; 
-   width: 450px;  
+   width: 350px;  
    padding: 20px;  
-   margin: 10px auto;  
+   margin: 50px auto;  
    border-radius: 15px;    
    -moz-border-radius: 15px;  
    -webkit-border-radius: 15px;  
@@ -155,7 +158,7 @@ h4 {
 #contact-form input,   
 #contact-form select,   
 #contact-form textarea {  
-   width: 400px;
+   width: 300px;
    background: #fff;
    border: 0; 
    -moz-border-radius: 5px;  
