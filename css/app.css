@@ -130,8 +130,19 @@ h4 {
 	background-color: transparent;
 }
 
+@media not {
+
+
+
 button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #574D39; }
+    background-color: #574D39; 
+}
+}
+
+
+@media only screen and (min-width: 40.063em) {
+  button, .button {
+    display: inline-block; } }
 
 /*Contact Form */
 
