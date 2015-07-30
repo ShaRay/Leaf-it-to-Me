@@ -120,6 +120,7 @@ h4 {
 .button {
 	-webkit-appearance: none;
 	background-color: transparent;
+	padding: 10px;
 	border-width: 0;
 	text-align: center;
 	box-shadow: 0 0 0;
@@ -130,13 +131,8 @@ h4 {
 	background-color: transparent;
 }
 
-@media not {
-
-
-
 button:hover, button:focus, .button:hover, .button:focus {
     background-color: #574D39; 
-}
 }
 
 
