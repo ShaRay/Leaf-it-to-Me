@@ -221,11 +221,23 @@ input:required, textarea:required {
    display:none;  
 }
 
+/* change link color a */
+
+a {
+  color: #898274;
+  text-decoration: none;
+  line-height: inherit; }
+  a:hover, a:focus {
+    color: #DCDAD6; }
+  a img {
+    border: none; }
+
 
 footer p, footer a {
-	padding-top: 5px;
+	padding-top: 50px;
 	font-size: 14px;
 	text-align: center;
+
 }
 
 .hero {
