@@ -60,19 +60,14 @@
                 <p>We are located in Meade County, KY and we are able to travel to the surrounding counties in Northern Kentucy and Southern Indiana. 
             </div>
             <div class="large-4 columns">
-                <ul class="small-block-grid-2">
-                    <li>
-                        <img src="img/virginia-live-oak.jpg" alt="Virginia Oak Tree" />
-                    </li>
-                    <li>
-                        <img src="img/saw-tree.jpg" alt="Chainsaw cutting into tree" />
-                    </li>
-                    <li>
-                        <img src="img/tree-damage.jpg" alt="Cutting up tree after damage" />
-                    </li>
-                    <li>
-                        <img src="img/winter-mood.jpg" alt="winter scene with trees" />
-                    </li>
+                <ul class="small-block-grid-2 block-images">
+                    <li style="background-image: url('img/virginia-live-oak.jpg');"></li>
+
+                    <li style="background-image: url('img/saw-tree.jpg');"></li>
+                        
+                    <li style="background-image: url('img/tree-damage.jpg');"></li>
+                        
+                    <li style="background-image: url('img/winter-mood.jpg');"></li>
                   </ul>
             </div>
         </div>
@@ -80,28 +75,26 @@
         <div class="row">
             <div class="large-12 columns">
             <div id="contact-form">
-                    <h1>Free Quote</h1>
-                        <p id="failure"></p>
-                        <p id="success"></p>
-        <form action="php/contact.php" method="post">
-            <label for="name">Name: <span class="required"></span>
-                </label>
-                     <input type="text" id="name" name="name" value="" placeholder="Your name" required="required" />
+                <h1>Free Quote</h1>
+                <p id="failure"></p>
+                <p id="success"></p>
 
-            <label for="email">Email: <span class="required"></span>
-                </label>
+                <form action="php/contact.php" method="post">
+                    <label for="name">Name: <span class="required"></span></label>
+                    <input type="text" id="name" name="name" value="" placeholder="Your name" required="required" />
+
+                    <label for="email">Email: <span class="required"></span></label>
                     <input type="text" id="email" name="email" value="" placeholder="Your email" required="required" />
 
-            <label for="phone">Phone</label>
+                    <label for="phone">Phone</label>
                     <input type="text" id="phone" name="phone" placeholder="Your Phone" />
 
-            <label for="message">Message: <span class="required"></span>
-                </label>
-                <textarea id="message" name="message" placeholder="Write your message here, please." required="required"></textarea>
-                    <a href="mailto:sharon2@sharay.com">Send Message</a>
-                   <input type="submit" value="Submit">
-            </form>
-           </div>
+                    <label for="message">Message: <span class="required"></span></label>
+                    <textarea id="message" name="message" placeholder="Write your message here, please." required="required"></textarea>
+
+                    <input type="submit" value="Submit"> 
+                </form>
+            </div>
         </div>
    </div>
   <footer>

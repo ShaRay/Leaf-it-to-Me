@@ -143,7 +143,12 @@ button:hover, button:focus, .button:hover, .button:focus {
 
 
 /*Small Box Grid*/
-
+.block-images li {
+	height: 145px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
 
 
 /*Contact Form */
