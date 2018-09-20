@@ -263,7 +263,7 @@ footer p, footer a {
 
 
 .hero {
-	padding-bottom: 15px;
+	padding-bottom: 250px;
 	background-image: url("../img/chainsaw-tree.jpg");
 	background-size: cover;
 	background-position: center bottom;
@@ -271,7 +271,7 @@ footer p, footer a {
 }
 
 .hero-content {
-	margin-bottom: 50px;
+	margin-bottom: 200px;
 	padding-top: 40px;
 	padding-bottom: 40px;
 	background-color: #A19291;
